@@ -1,0 +1,44 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.card {
+    height: 200px;
+    width: 500px;
+    margin: 20px;
+    position: absolute;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+h1 {
+    font-size: 20px;
+    display: flex;
+    padding: 20px 0 10px 20px;
+}
+p {
+    display: flex;
+    padding: 10px 0 10px 20px;
+}
+
+.button {
+    background-color: rgb(60, 120, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 35px;
+    color: white;
+    border: 1px solid rgb(60, 120, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
